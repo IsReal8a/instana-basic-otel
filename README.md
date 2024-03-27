@@ -1,7 +1,7 @@
 # Instana Otel Basic
 
-This code should be used test Instana OpenTelemetry capabilities, nothing fancy with Docker and things like that, just to do quick dirty tests.
-It's based on [Alessandro Crotti's project](https://github.com/alessandrocrotti/instana-exporter-test)
+This code should be used for testing Instana OpenTelemetry capabilities, nothing fancy like Docker apps and things like that, just to perform quick dirty tests.
+It's based on [Alessandro Crotti's otel project](https://github.com/alessandrocrotti/instana-exporter-test)
 
 ## Setup
 First create an `.env` file with the following:
@@ -14,9 +14,9 @@ OTEL_EXPORTER_INSTANA_HOST="YourHost(Optional)"
 ```
 
 More information about the endpoints can be found [HERE](https://www.ibm.com/docs/en/instana-observability/current?topic=opentelemetry-sending-data-instana-backend#endpoints-of-the-instana-backend-otlp-acceptor)
-You find your region in "Instana UI -> More -> About Instana"
+You can find your region in "Instana UI -> More -> About Instana".
 
-**Code use gRPC by default**
+**Code uses gRPC by default**
 
 ## How can I run it?
 
@@ -63,7 +63,7 @@ const exporterInstana = new OTLPTraceExporterGRPC({
 OTEL_EXPORTER_INSTANA_ENDPOINT="https://ENDPOINT:4318/v1/traces"
 ```
 
-I know, isn't practical but hey, it's Beta version :)
+**I know, isn't practical but hey, it's Beta version :)**
 
 ## What do I get?
 
