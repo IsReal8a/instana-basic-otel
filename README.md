@@ -1,7 +1,10 @@
 # Instana Otel Basic
 
 This code should be used for testing Instana OpenTelemetry capabilities, nothing fancy like Docker apps and things like that, just to perform quick dirty tests.
-It's based on [Alessandro Crotti's otel project](https://github.com/alessandrocrotti/instana-exporter-test)
+
+It's based on [Alessandro Crotti's otel project](https://github.com/alessandrocrotti/instana-exporter-test).
+
+For a elaborated Instana Otel demo please got to the [otel-shop](https://github.com/instana/otel-shop).
 
 ## Setup
 First create an `.env` file with the following:
