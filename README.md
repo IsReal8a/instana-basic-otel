@@ -4,7 +4,7 @@ This code should be used for testing Instana OpenTelemetry capabilities, nothing
 
 It's based on [Alessandro Crotti's otel project](https://github.com/alessandrocrotti/instana-exporter-test).
 
-For an elaborated Instana Otel demo please got to the [otel-shop](https://github.com/instana/otel-shop).
+For an elaborated Instana Otel demo please go to the [otel-shop](https://github.com/instana/otel-shop) project.
 
 ## Setup
 First create an `.env` file with the following:
@@ -16,7 +16,8 @@ OTEL_EXPORTER_INSTANA_KEY="AwesomeKey"
 OTEL_EXPORTER_INSTANA_HOST="YourHost(Optional)"
 ```
 
-More information about the endpoints can be found [HERE](https://www.ibm.com/docs/en/instana-observability/current?topic=opentelemetry-sending-data-instana-backend#endpoints-of-the-instana-backend-otlp-acceptor)
+More information about the endpoints can be found [HERE](https://www.ibm.com/docs/en/instana-observability/current?topic=opentelemetry-sending-data-instana-backend#endpoints-of-the-instana-backend-otlp-acceptor).
+
 You can find your region in "Instana UI -> More -> About Instana".
 
 **Code uses gRPC by default**
