@@ -4,7 +4,7 @@ This code should be used for testing Instana OpenTelemetry capabilities, nothing
 
 It's based on [Alessandro Crotti's otel project](https://github.com/alessandrocrotti/instana-exporter-test).
 
-For a elaborated Instana Otel demo please got to the [otel-shop](https://github.com/instana/otel-shop).
+For an elaborated Instana Otel demo please got to the [otel-shop](https://github.com/instana/otel-shop).
 
 ## Setup
 First create an `.env` file with the following:
